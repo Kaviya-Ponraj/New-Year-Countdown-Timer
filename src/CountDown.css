@@ -1,0 +1,59 @@
+.App {
+    text-align: center;
+    /* margin-top: 2%; */
+    color: white;
+    font-size: 20px;
+    z-index: 99999;
+}
+
+.new{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.full{
+    margin-top: 10%;
+}
+
+.countdown{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.days{
+    font-weight: 800;
+    margin-right: 10%;
+    /* justify-content: center; */
+    /* background-color: black; */
+    /* color: #fff; */
+    /* align-items: center; */
+    text-align: center;
+}
+
+.p{
+    justify-content: center;
+    font-weight: 500;
+    margin-top: 0;
+    /* background-color: red; */
+}
+
+@media only screen and (max-width: 576px){
+    .full{
+        margin-top: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .full{
+        margin-top: 60%;
+    }
+}
